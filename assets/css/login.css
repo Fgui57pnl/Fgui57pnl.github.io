@@ -12,6 +12,7 @@ body {
   color: white;
 }
 
+
 .login-container {
   background-color: transparent;
   padding: 20px;
@@ -19,7 +20,9 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 400px;
   max-width: 100%;
+
 }
+
 
 .login-container h1 {
    
@@ -46,9 +49,22 @@ body {
     border-radius: 20px;
   cursor: pointer;
 }
-.remember-forgot .register-link {
-    text-decoration: none; 
-   
+.remember-forgot a,.register-link a{
+  color: #fff;
+}
+.remember-forgot a:hover,.register-link a:hover{
+  text-decoration: underline;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.login-container .register-link {
+    text-align: center;
+
 }
 
 
